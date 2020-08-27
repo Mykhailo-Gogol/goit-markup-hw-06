@@ -218,11 +218,40 @@
                 </svg></a></li>
           </ul>
         </div>
+        <div class="subscribe">
+
+          <label for="subscribe" class="subscribe-label">Подпишитесь на рассылку</label>
+
+          <div class="flex-box">
+            <input type="email" name="subscribe" id="subscribe" placeholder="E-mail" class="subscribe-input">
+            <button onclick="myFunction()" class="subscribe-button">
+              <span class="subscribe-text">Подписаться</span>
+              <svg class="icon-send">
+                <use href="IMG/sprite-form.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
 
 
     </div>
+
+    <!-- Backdrop Modal -->
+    <div class="backdrop is-hidden" id="myId">
+      <div class="modal">
+        <button onclick="myFunction()" class=" close-btn">
+          <svg class="icon-close">
+            <use href="./IMG/sprite-form.svg#icon-close"></use>
+          </svg>
+        </button>
+
+      </div>
+    </div>
   </footer>
+
+  <!-- Script -->
+  <script src="./JS/modal.js"></script>
 </body>
 
 </html>
