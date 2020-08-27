@@ -1035,25 +1035,22 @@ margin-right: 10px;
   appearance: none;
 }
 
-.form-chbox:checked + .chbox-icon {
+.form-chbox:checked + .check-icon {
   background-color: #2196F3;
-  border-style: hidden;
+  border: none;
+  border-radius: 2px;
 }
 
 .check-icon {
+  border: 1px solid #212121;
   display: block;
-  width: 11px;
-  height: 8px;
-  margin: 3px 3px 3px 2px;
+  width: 15px;
+  height: 15px;
+border-radius: 2px;
+
   
 }
 
-.chbox-icon {
-  width: 16px;
-  height: 15px;
-  border: 2px solid #212121;
-  border-radius: 2px;
-}
 
 .chbox-lable {
   margin-left: 8px;
