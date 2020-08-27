@@ -941,3 +941,113 @@ margin-right: 10px;
   height: 18px;
   vertical-align: auto; 
 }
+
+.form-cont {
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.form-title  {
+  margin: 0;
+  margin-bottom: 12px;
+  text-align: center;
+
+  font-weight: 700;
+  line-height: 23px;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  color: var(--second-text-color);
+}
+
+.form-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  line-height: 14px;
+
+  color: var(--main-text-color);
+}
+
+.form-input {
+  margin-bottom: 10px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-textarea {
+  resize: none;
+
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.chbox {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.chbox-lable {
+  margin-left: 8px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+
+  color: var(--main-text-color);
+}
+
+.form-link,
+.form-link:visited {
+  text-decoration-line: underline;
+  color: #2196F3;
+}
+
+.btn-submit {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  width: 200px;
+  background: #2196F3;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-style: hidden;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 16px;
+
+  letter-spacing: 0.06em;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.icon-field {
+  position: relative;
+}
+
+.icon-form {
+  position: absolute;
+  left: 12px;
+  bottom: 11px;
+  transform: translateY(-50%);
+
+  width: 18px;
+  height: 18px;
+
+}
+
+
