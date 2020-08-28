@@ -239,15 +239,68 @@
 
     <!-- Backdrop Modal -->
     <div class="backdrop is-hidden" id="myId">
+
       <div class="modal">
-        <button onclick="myFunction()" class=" close-btn">
+
+        <button onclick="myFunction()" class="close-btn">
           <svg class="icon-close">
             <use href="./IMG/sprite-form.svg#icon-close"></use>
           </svg>
         </button>
 
+        <div class="form-cont">
+          <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+
+          <form action="" class="form-flex">
+
+            <div class="icon-field form-flex">
+
+              <label for="name" class="form-label">Имя</label>
+              <input type="text" name="name" id="name" class="form-input">
+              <svg class="icon-form">
+                <use href="IMG/sprite-form.svg#icon-form-name"></use>
+              </svg>
+            </div>
+
+            <div class="icon-field form-flex">
+
+              <label for="tel" class="form-label">Телефон</label>
+              <input type="tel" name="tel" id="tel" class="form-input">
+              <svg class="icon-form">
+                <use href="IMG/sprite-form.svg#icon-form-phone"></use>
+              </svg>
+            </div>
+
+            <div class="icon-field form-flex">
+
+              <label for="email" class="form-label">Почта</label>
+              <input type="email" name="email" id="email" class="form-input">
+              <svg class="icon-form">
+                <use href="IMG/sprite-form.svg#icon-form-email"></use>
+              </svg>
+            </div>
+
+            <label for="comments" class="form-label">Комментарий</label>
+            <textarea name="comments" id="comments" class="form-textarea" placeholder="Введите текст"></textarea>
+
+            <div class="chbox">
+              <input type="checkbox" name="policy" id="policy" class="form-chbox">
+
+              <img src="./IMG/svg/icon-check.svg" alt="check-icon" class="check-icon">
+
+              <label for="policy" class="chbox-lable">Соглашаюсь с рассылкой и принимаю
+                <a href="" class="form-link">Условия договора</a>
+              </label>
+            </div>
+
+            <button type="submit" class="btn-submit">Отправить</button>
+          </form>
+        </div>
+
       </div>
+
     </div>
+
   </footer>
 
   <!-- Script -->
