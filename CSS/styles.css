@@ -1074,6 +1074,10 @@ margin-right: 10px;
   color: #2196F3;
 }
 
+.a-checkbox:visited {
+  color: #2196F3;
+}
+
 .field {
   display: flex;
   align-items: center;
@@ -1090,6 +1094,7 @@ margin-right: 10px;
   display: inline-block;
   width: 16px;
   height: 15px;
+  margin-left: 12px;
   margin-right: 6px;
   background-image: url('../IMG/svg/icon-checkbox.svg');
 }
