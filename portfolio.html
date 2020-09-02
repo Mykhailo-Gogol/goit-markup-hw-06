@@ -283,7 +283,7 @@
             <label for="comments" class="form-label">Комментарий</label>
             <textarea name="comments" id="comments" class="form-textarea" placeholder="Введите текст"></textarea>
 
-            <div class="chbox">
+            <!-- <div class="chbox">
               <input type="checkbox" name="policy" id="policy" class="form-chbox">
 
               <img src="./IMG/svg/icon-check.svg" alt="check-icon" class="check-icon">
@@ -291,7 +291,15 @@
               <label for="policy" class="chbox-lable">Соглашаюсь с рассылкой и принимаю
                 <a href="" class="form-link">Условия договора</a>
               </label>
-            </div>
+            </div> -->
+
+            <label class="field">
+              <input type="checkbox" class="checkbox" name="policy">
+              <span class="icon"></span>
+
+              <span class="label">Соглашаюсь с рассылкой и принимаю <a class="a-checkbox" href="">Условия
+                  договора</a></span>
+            </label>
 
             <button type="submit" class="btn-submit">Отправить</button>
           </form>
